@@ -1,62 +1,118 @@
-Vamos a realizar un restablecimiento de fábrica de tu Lenovo. Sigue estos pasos:
+# Guía de Restablecimiento de Fábrica para Lenovo 🔄
 
-Opción 1: Restablecer desde el Entorno de Recuperación de Windows
-Accede al menú de recuperación:
+## Introducción
+Esta guía te ayudará a realizar un restablecimiento de fábrica en tu laptop Lenovo. Sigue la lista de verificación para cada método y selecciona la opción que mejor se adapte a tu situación.
 
-Reinicia la laptop y fuerza 3 apagados durante el inicio (mantén presionado el botón de encendido hasta que se apague).
+## Antes de Comenzar ⚠️
 
-En la tercera vez, entrarás en Automatic Repair → Advanced Options.
+- [ ] Respalda todos tus archivos y documentos importantes
+- [ ] Anota todas las contraseñas necesarias
+- [ ] Mantén el cargador de tu laptop conectado durante el proceso
+- [ ] Reserva al menos 1-2 horas para el proceso de restablecimiento
 
-Selecciona la opción de restablecimiento:
+---
 
-Ve a Troubleshoot → Reset This PC → Remove Everything (elimina todo).
+## Opción 1: Restablecer desde el Entorno de Recuperación de Windows 💻
 
-Si te pregunta si quieres limpiar la unidad, elige Clean the drive fully (más seguro, pero toma más tiempo).
+### Acceso al Menú de Recuperación
+- [ ] Reinicia tu laptop
+- [ ] Fuerza 3 apagados durante el inicio (mantén presionado el botón de encendido hasta que se apague)
+- [ ] En el tercer reinicio, entrarás en **Reparación Automática** (**Automatic Repair**)
+- [ ] Selecciona **Opciones Avanzadas** (**Advanced Options**)
 
-Sigue las instrucciones:
+### Proceso de Restablecimiento
+- [ ] Navega a **Solucionar problemas** (**Troubleshoot**) ➡️ **Restablecer este PC** (**Reset This PC**) ➡️ **Quitar todo** (**Remove Everything**)
+- [ ] Cuando se te pregunte sobre la limpieza de la unidad, selecciona **Limpiar la unidad completamente** (**Clean the drive fully**) (más seguro pero toma más tiempo)
+- [ ] Sigue las instrucciones en pantalla para completar el restablecimiento
+- [ ] Windows se reinstalará desde la partición de recuperación de Lenovo (si está disponible)
 
-El proceso reinstalará Windows desde la partición de recuperación de Lenovo (si existe).
+### Verificación de Éxito
+- [ ] El sistema reinicia a la configuración de Windows
+- [ ] La instalación de Windows se completa exitosamente
+- [ ] Puedes iniciar sesión en un sistema nuevo
 
-Si no funciona, pasa a la Opción 2.
+---
 
-Opción 2: Usar la Partición de Recuperación de Lenovo (OneKey Recovery)
-Accede a la herramienta de recuperación de Lenovo:
+## Opción 2: Usar la Recuperación OneKey de Lenovo 🔑
 
-Apaga la laptop.
+### Acceso a la Herramienta de Recuperación de Lenovo
+- [ ] Apaga completamente tu laptop
+- [ ] Enciéndela y presiona repetidamente la tecla **F11**
+- [ ] Alternativamente, presiona el **Botón Novo** (botón pequeño cerca del puerto de carga en algunos modelos)
 
-Enciéndela y presiona repetidamente la tecla F11 o el Novo Button (si tu modelo lo tiene, generalmente un botón pequeño junto al puerto de carga).
+### Proceso de Restablecimiento
+- [ ] En el **Menú del Botón Novo**, selecciona **Recuperación del Sistema** (**System Recovery**)
+- [ ] Sigue las instrucciones para restaurar el sistema a la configuración de fábrica
+- [ ] Espera a que el proceso se complete (puede tomar 30-60 minutos)
 
-Selecciona la recuperación de fábrica:
+### Verificación de Éxito
+- [ ] El sistema reinicia automáticamente
+- [ ] Aparece la pantalla de configuración de Lenovo
+- [ ] La instalación de Windows se completa con el software de Lenovo preinstalado
 
-En el menú de Novo Button, elige System Recovery.
+---
 
-Sigue las instrucciones para restaurar el sistema a su estado original.
+## Opción 3: Instalación Limpia de Windows 🔧
+*Usa este método si las Opciones 1 y 2 fallan*
 
-Opción 3: Instalación Limpia de Windows (si las opciones anteriores fallan)
-Necesitarás:
+### Requisitos
+- [ ] Acceso a otra computadora
+- [ ] Unidad USB (8GB o más grande)
+- [ ] Conexión a Internet para descargar la Herramienta de Creación de Medios de Windows
 
-Otra computadora y una USB de 8GB+.
+### Crear Medio de Instalación
+- [ ] En otra computadora, descarga la **Herramienta de Creación de Medios** desde el sitio oficial de Microsoft
+- [ ] Ejecuta la herramienta y selecciona **Crear medios de instalación**
+- [ ] Sigue las indicaciones para crear una unidad USB de arranque
 
-Descarga la Herramienta de Creación de Medios de Microsoft:
-Enlace oficial.
+### Proceso de Instalación
+- [ ] Conecta la unidad USB a tu laptop Lenovo
+- [ ] Reinicia y presiona **F12** para acceder al menú de arranque
+- [ ] Selecciona la unidad USB desde el menú de arranque
+- [ ] Cuando cargue el instalador de Windows, selecciona **Instalación Personalizada** (**Custom Install**)
+- [ ] Elimina todas las particiones existentes (⚠️ ¡Esto borrará TODOS los datos!)
+- [ ] Crea una nueva partición y continúa con la instalación
 
-Crea un USB de instalación:
+### Post-Instalación
+- [ ] Completa la configuración de Windows
+- [ ] Descarga e instala los controladores de Lenovo desde el sitio web de Soporte de Lenovo
+- [ ] Instala el software esencial
 
-Ejecuta la herramienta, elige "Crear medios de instalación" y sigue los pasos.
+---
 
-Instala Windows en tu Lenovo:
+## Consejos de Solución de Problemas 🛠️
 
-Conecta el USB, reinicia la laptop y presiona F12 para seleccionar el USB.
+### Si el Restablecimiento Falla
+- [ ] Prueba una opción de restablecimiento diferente de esta guía
+- [ ] Verifica si hay problemas de hardware (particularmente con el disco duro)
+- [ ] Considera conectar la unidad a otra computadora para recuperar archivos importantes
 
-En el asistente de instalación, elige Custom Install → borra todas las particiones (¡esto eliminará todos los datos!) → crea una nueva partición y continúa.
+### Información de Licencia
+- [ ] Las laptops Lenovo generalmente tienen la licencia de Windows integrada en la BIOS
+- [ ] No deberías necesitar ingresar manualmente una clave de producto
+- [ ] Si se te solicita, selecciona "No tengo una clave de producto" y Windows debería activarse automáticamente
 
-Notas Importantes:
-Respaldo de datos: Si tienes archivos críticos, retira el disco duro y conéctalo a otra computadora para copiarlos.
+### Instalación de Controladores
+- [ ] Visita el [sitio web de Soporte de Lenovo](https://support.lenovo.com)
+- [ ] Ingresa el número de modelo de tu laptop o usa la detección automática
+- [ ] Descarga e instala los controladores en este orden:
+  - Controladores del chipset
+  - Controladores de pantalla
+  - Controladores de red
+  - Controladores de audio
+  - Otros controladores de dispositivos
 
-Clave de producto: Los Lenovo suelen tener la licencia de Windows integrada en la BIOS. No necesitarás ingresarla manualmente.
+---
 
-Controladores: Después de reinstalar, descarga los controladores desde Lenovo Support.
+## Lista de Verificación Final ✅
 
-Si nada funciona:
-Problema de hardware: Si el restablecimiento falla repetidamente, podría ser un disco duro defectuoso. Prueba con un disco nuevo o consulta a un técnico.
+- [ ] Windows está instalado exitosamente
+- [ ] Todo el hardware funciona correctamente
+- [ ] Las conexiones de red funcionan
+- [ ] Windows está activado
+- [ ] Los controladores esenciales están instalados
+- [ ] El sistema está actualizado con las últimas actualizaciones de Windows
 
+---
+
+*Si encuentras problemas persistentes después de intentar todos los métodos, considera consultar con un especialista de soporte técnico de Lenovo o visitar un centro de servicio autorizado.*
